@@ -1,0 +1,31 @@
+// Variables 
+$primary-clr: #252931;
+$second-clr: #01B5F3;
+$desktop-padding: 0 6rem;
+$mobile-padding: 0 1rem;
+$tablet-padding: 0 2rem;
+// Mixins 
+
+@mixin flex($justify, $align){
+    display: flex;
+    justify-content: $justify;
+    align-items: $align;
+}
+
+@mixin resetLinks($clr){
+    text-decoration: none;
+    color: $clr;
+}
+
+@mixin font-roboto(){
+    font-family: 'Roboto', sans-serif;
+}
+
+@mixin font-lato(){
+    font-family: 'Lato', sans-serif;
+}
+
+@mixin width(){
+    max-width: 1400px;
+    margin: 0 auto;
+}
